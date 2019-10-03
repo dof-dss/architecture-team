@@ -66,3 +66,9 @@ sprockets.append_path File.join(root, 'node_modules/gaap-analytics/')
 
 # https://middlemanapp.com/advanced/pretty-urls/
 activate :directory_indexes
+
+# activate blog extension
+activate :blog do |blog|
+  # set options on blog
+  blog.prefix = "blog"
+end

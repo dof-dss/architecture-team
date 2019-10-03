@@ -2,7 +2,7 @@
 <html lang="en" class="govuk-template">
   <head>
     <meta charset="utf-8">
-    <title><%= current_page.data.title && "#{current_page.data.title} – " %>GOV.UK Product Pages</title>
+    <title><%= current_page.data.title && "#{current_page.data.title} – " %>DSS Architeture Team</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#0b0c0c" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -50,7 +50,7 @@
               </span>
             </span>
             <span class="govuk-header__product-name">
-              Product Pages
+              Enterprise and Solution Architecture Team
             </span>
           </a>
         </div>
@@ -61,6 +61,7 @@
               <%
                 {
                   'About' => '/',
+                  'Blog' => '/blog/',
                   'Supplementary Pages' => '/supplementary/',
                   'Support' => '/support/'
                 }.each do |title, url|
