@@ -71,6 +71,7 @@ activate :directory_indexes
 activate :blog do |blog|
   # set options on blog
   blog.prefix = "blog"
+  blog.layout = "blog"
 end
 
 # Read in the list of links for the header from the YAML file
