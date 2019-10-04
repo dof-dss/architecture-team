@@ -1,0 +1,13 @@
+# Header details
+organisation_name: Digital Shared Services
+team_name: Enterprise and Solution Architecture Team
+
+# Links to show on right-hand-side of header
+header_links:
+  About: /
+  Blog: /blog/
+  Supplementary Pages: /supplementary/
+  Support: /support/
+
+# Blog title
+blog_title: Architecture Team Blog

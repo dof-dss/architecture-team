@@ -72,3 +72,6 @@ activate :blog do |blog|
   # set options on blog
   blog.prefix = "blog"
 end
+
+# Read in the list of links for the header from the YAML file
+config[:settings] = YAML.load(File.read('config/settings.yml'))
