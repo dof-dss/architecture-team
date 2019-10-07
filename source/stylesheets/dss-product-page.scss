@@ -8,6 +8,7 @@
 
 $nics-brand-colour: #0a7ad0;
 $nics-grey: rgb(172, 172, 172);
+$nics-app-description-colour: darken($nics-grey, 20%);
 
 .govuk-header {
     background: $nics-brand-colour;
@@ -48,11 +49,6 @@ $nics-grey: rgb(172, 172, 172);
     border-top-color: $nics-brand-colour;
   }
 
-<<<<<<< HEAD
-.posted-on {
-  color: gray;
-=======
 .app-collection__description {
-  color: $govuk-secondary-text-colour;
->>>>>>> 56ad043ef308c25ab91dcc260e04d85a87b3a50c
+  color: $nics-app-description-colour;
 }
