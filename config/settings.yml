@@ -11,3 +11,12 @@ header_links:
 
 # Blog title
 blog_title: Architecture Team Blog
+
+# Catalogue product page URLs
+catalogue:
+  api_management_product_page: https://api-management-product-page.london.cloudapps.digital
+  usage_tracking_product_page:
+  doc_config_product_page:
+  audit_service_product_page:
+  customer_identity_hub_product_page:
+  employee_identity_hub_product_page:
