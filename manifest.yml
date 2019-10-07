@@ -1,6 +1,7 @@
 ---
 applications:
-- name: gaap-product-pages
+- name: architecture-team
   memory: 64M
+  instances: 1
   path: ./build
   buildpack: staticfile_buildpack
