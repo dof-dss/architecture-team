@@ -24,6 +24,7 @@ $nics-grey: rgb(172, 172, 172);
         height: 40px;
     }
 }
+
 .govuk-header__navigation-item--active a:link, .govuk-header__navigation-item--active a:hover, .govuk-header__navigation-item--active a:visited {
     color: White;
     background: #085d9f;
@@ -47,6 +48,11 @@ $nics-grey: rgb(172, 172, 172);
     border-top-color: $nics-brand-colour;
   }
 
+<<<<<<< HEAD
 .posted-on {
   color: gray;
+=======
+.app-collection__description {
+  color: $govuk-secondary-text-colour;
+>>>>>>> 56ad043ef308c25ab91dcc260e04d85a87b3a50c
 }
