@@ -16,7 +16,7 @@ blog_title: Architecture Team Blog
 catalogue:
   api_management_product_page: https://api-management-product-page.london.cloudapps.digital
   usage_tracking_product_page:
-  doc_config_product_page:
+  doc_config_product_page: https://document-config.london.cloudapps.digital
   audit_service_product_page:
   customer_identity_hub_product_page:
   employee_identity_hub_product_page:
