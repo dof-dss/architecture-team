@@ -73,17 +73,33 @@
       </div>
     </header>
 
+    <div class="govuk-width-container product-page-!-border-bottom">
+      <div class="govuk-breadcrumbs">
+        <ol class="govuk-breadcrumbs__list">
+          <li class="govuk-breadcrumbs__list-item" aria-current="page">
+            <a class="govuk-breadcrumbs__link" href="/">Architecture Team</a>
+          </li>
+          <li class="govuk-breadcrumbs__list-item" aria-current="page">
+            <a class="govuk-breadcrumbs__link" href="/blog">Blog</a>
+          </li>
+          <li class="govuk-breadcrumbs__list-item" aria-current="page">
+            <a class="govuk-breadcrumbs__list-item"><%= current_article.title %></a>
+          </li>
+        </ol>
+      </div>
+    </div>
+
     <main class="govuk-main-wrapper" id="main-content" role="main">
       <div class="govuk-width-container">
         <div class="govuk-grid-row">
           <div class="govuk-grid-column-two-thirds">
             <article>
-              <h1>
-                <a href="<%= current_article.url %>" class="govuk-link"><%= current_article.title %></a>
+              <h1 class="govuk-heading-l">
+                <%= current_article.title %>
               </h1>
 
               <section class="content-section">
-                <img src="//placehold.it/1000x600" class="image govuk-!-display-block govuk-!-margin-bottom-4">
+                <img src="<%= current_article.data.image %>" class="image govuk-!-display-block govuk-!-margin-bottom-4">
               </section>
 
               <div class="govuk-body">
@@ -97,10 +113,9 @@
               </div>
 
               <div class="govuk-body">
-                <%= current_article.summary %>
+                <%= current_article.body %>
               </div>
 
-              <a href="<%= current_article.url %>" class="govuk-link">Read more</a>
             </article>
           </div>
           <div class="govuk-grid-column-one-third">
